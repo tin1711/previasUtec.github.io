@@ -1,0 +1,102 @@
+
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+body{
+	background: #EEE9DA;
+
+}
+h3,h4{
+	  font-weight:700 !important ;
+}
+button{
+	border-radius: 10px !important;
+
+}
+/*NAV*/
+
+#nav{
+	align-items: center;
+	margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	margin-bottom:70px ;
+
+}
+#nav:nth-child(1) span{
+	font-weight: 700;
+	font-size: 1.5rem;
+
+}
+#title{
+   
+    display: flex;
+	flex-direction:column ;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	background: #bdcdd6	;
+	border-radius: 20px;
+
+}
+#asignaturas{
+	align-items: center;
+
+}
+#cuartoSemestre,#tercerSemestre,#segundoSemestre{
+	align-items: center;
+	margin-bottom: 50px;
+}
+#primerSemestre{
+		align-items: center;
+	margin-bottom: 30px;
+}
+/*conctact*/
+#referencias{
+	display: flex;
+	flex-direction: row;
+}
+#referencias div{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	color: #131414;
+}
+#referencias div span{
+	color: rgba(251, 251, 251, 0.8);
+}
+.fa-linkedin{
+	color: #131414;
+	font-size: 20px;
+}
+
+/*CLASES SEGUN APROBACIONES*/
+.aprobada{
+	background: rgba(91, 121, 222,0.9 )
+ !important ;
+ color: rgba(251, 251, 251, 0.8)!important;
+}
+.exonerada{
+	background: rgba(9, 140, 4, 0.9) !important; 
+	color: rgba(251, 251, 251, 0.8)!important;
+}
+.podesCursarla{
+	background: rgba(211, 46, 41, 0.9)
+ !important; 
+	color: rgba(251, 251, 251, 0.8)!important;
+}
+
+@media (max-width:770px){
+	#title{
+		width: 100%;
+		position: relative;
+		top:40px;
+	}
+	#cantCreditos{
+	position: fixed;
+	left: 0;
+	z-index: 100;
+	background: rgba(189,205,214,0.5);
+	width: 100%;
+	}
+
+}
+
