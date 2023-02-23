@@ -76,7 +76,7 @@ const ReddeCompu   = new asignatura("ReddeCompu",1,[[arqui,apro]],noPodes,12,["a
 
 const admDeInfra         = new asignatura("admDeInfra",2,[[ReddeCompu,apro],[sisOpe,exo]],noPodes,8,[])
 const relacionesLaborales = new asignatura("relacionesLaborales",0,[],podes,4,[])
-const ingDeSoft          = new asignatura("ingDeSoft",4,[[estrucDA,exo],[progAvan,apro],[dataBase1,exo],[dataBase2,apro]],noPodes,12,[])
+const ingDeSoft          = new asignatura("ingDeSoft",4,[[dataBase1,exo],[estrucDA,exo],[dataBase2,apro],[progAvan,apro]],noPodes,12,[])
 const pye                = new asignatura("pye",2,[[mathDisLog1,exo],[mathDisLog2,exo]],noPodes,8,[])
 const progDeApp          = new asignatura("progDeApp",4,[[dataBase1,exo],[estrucDA,exo],[dataBase2,apro],[progAvan,apro]],noPodes,16,[])
 
