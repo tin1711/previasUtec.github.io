@@ -68,7 +68,7 @@ const estrucDA=new asignatura("estrucDA",2,[[mathDisLog1,apro],[priProg,apro]],n
 const dataBase2    = new asignatura("dataBase2",1,[[dataBase1,apro]],noPodes,12,["ingDeSoft","progDeApp"])
 const coe          = new asignatura("coe",0,[],podes,4,[])
 const contabilidad = new asignatura("contabilidad",0,[],podes,8,[])
-const progAvan     = new asignatura("progAvan",1,[[estrucDA,apro]],noPodes,12,["ingDeSoft"])
+const progAvan     = new asignatura("progAvan",1,[[estrucDA,apro]],noPodes,12,["ingDeSoft","progDeApp"])
 const ReddeCompu   = new asignatura("ReddeCompu",1,[[arqui,apro]],noPodes,12,["admDeInfra"])
 
 // cuartoSemestre
